@@ -2,8 +2,8 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.bnpp.cardif</groupId>
-  <artifactId>sot-archetype-parent</artifactId>
+  <groupId>com.sot.module</groupId>
+  <artifactId>archetype-parent</artifactId>
   <version>1.0</version>
   <packaging>maven-archetype</packaging>
 

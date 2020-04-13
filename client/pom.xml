@@ -28,12 +28,13 @@ under the License.
     <version>1.4</version>
   </parent>
 
-  <groupId>com.bnpp.cardif</groupId>
-  <artifactId>sot-archetype-client</artifactId>
+  <groupId>com.sot.module</groupId>
+  <artifactId>archetype-client</artifactId>
   <version>1.0</version>
   <packaging>maven-archetype</packaging>
 
-  <name>SOT Maven Client Archetype</name>
+  <name>Client Archetype</name>
+
   <description>
     An archetype which contains a sample Client project.
   </description>

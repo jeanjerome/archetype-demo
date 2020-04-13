@@ -1,10 +1,13 @@
 #!/bin/bash
 
+mkdir ./test-dir
+cd ./test-dir
+
 mvn archetype:generate \
--DarchetypeGroupId=com.bnpp.cardif \
--DarchetypeArtifactId=sot-archetype-parent \
+-DarchetypeGroupId=com.sot.module \
+-DarchetypeArtifactId=archetype-parent \
 -DarchetypeVersion=RELEASE \
--DgroupId=com.bnpp.myproject \
+-DgroupId=com.example.myproject \
 -DartifactId=app-parent \
 -Dversion=0.0.1-SNAPSHOT \
 -DinteractiveMode=false
@@ -12,23 +15,23 @@ mvn archetype:generate \
 cd ./app-parent
 
 mvn archetype:generate \
--DarchetypeGroupId=com.bnpp.cardif \
--DarchetypeArtifactId=sot-archetype-client \
+-DarchetypeGroupId=com.sot.module \
+-DarchetypeArtifactId=archetype-client \
 -DarchetypeVersion=RELEASE \
--DgroupId=com.bnpp.myproject \
+-DgroupId=com.example.myproject \
 -DartifactId=client \
 -Dversion=0.0.1-SNAPSHOT \
--Dpackage=com.bnpp.cardif.client \
+-Dpackage=com.example.myproject.client \
 -DaddSecurity=true \
 -DinteractiveMode=false 
 
 mvn archetype:generate \
--DarchetypeGroupId=com.bnpp.cardif \
--DarchetypeArtifactId=sot-archetype-server \
+-DarchetypeGroupId=com.sot.module \
+-DarchetypeArtifactId=archetype-server \
 -DarchetypeVersion=RELEASE \
--DgroupId=com.bnpp.myproject \
+-DgroupId=com.example.myproject \
 -DartifactId=server \
 -Dversion=0.0.1-SNAPSHOT \
--Dpackage=com.bnpp.cardif.server \
+-Dpackage=com.example.myproject.server \
 -DinteractiveMode=false
 
