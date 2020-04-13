@@ -3,7 +3,7 @@ How to generate different types of application architecture without maintaining 
 
 Well, start to define one archetype per application layer and mixe them as you want in a multi-module project. Even more, adjust the taste with your favorite flavors like springbooting, microservices or authentication and you'll get a sophisticated and easy to maintain developer stack.
 
-All of this can be done with the Maven archetype plugin and its Velocity template engine.
+All of this can be done with simple Maven commands and its Maven archetype plugin and Velocity template engine.
 
 ## How to test it?
 
