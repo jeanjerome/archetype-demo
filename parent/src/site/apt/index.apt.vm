@@ -4,21 +4,13 @@
 
 ${project.name}
 
- <<<${project.artifactId}>>> is an archetype which generates a Server project:
+ <<<${project.artifactId}>>> is an archetype which generates a Parent root module project:
 
 +----+
 
 project
 |-- pom.xml
-`-- src
-    |-- main
-    |   `-- java
-    |       `-- $package
-    |           `-- App.java
-    `-- test
-        `-- java
-            `-- $package
-                `-- AppTest.java
+
 
 +----+
 

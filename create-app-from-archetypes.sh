@@ -37,3 +37,5 @@ mvn archetype:generate \
   -Dpackage=com.example.myproject.server \
   -DinteractiveMode=false \
   -DarchetypeCatalog=internal
+
+mvn au.com.acegi:xml-format-maven-plugin:xml-format
