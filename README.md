@@ -11,7 +11,7 @@ All of this can be done with the Maven archetype plugin and its Velocity templat
 This will build 3 Maven Archetypes and install them on your local Maven repository (`~/.m2/repository`)
 
 1. Run the bash script `create-app-from-archetypes.sh` (or the included commands).
-This will create an app from the 3 previous built archetypes.
+This will create a fully fonctional app composed of the 3 previous built archetypes.
 
 ## What does this demonstrate?
 
