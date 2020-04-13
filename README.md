@@ -1,4 +1,4 @@
-# archetypes-combination
+# archetypes-mixture
 How to generate different types of application architecture without maintaining redundant archetypes code?
 
 Well, start to define one archetype per application layer and combine them as you want in a multi-module project. Even more, adjust the taste with your favorite flavors like springbooting, microservices or authentication and you'll get a sophisticated and easy to maintain developer stack.
