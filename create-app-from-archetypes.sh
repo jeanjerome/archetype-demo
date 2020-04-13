@@ -19,7 +19,7 @@ mvn archetype:generate \
 -DartifactId=client \
 -Dversion=0.0.1-SNAPSHOT \
 -Dpackage=com.bnpp.cardif.client \
--DincludeSaf=true \
+-DaddSecurity=true \
 -DinteractiveMode=false 
 
 mvn archetype:generate \
