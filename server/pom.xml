@@ -19,31 +19,32 @@ specific language governing permissions and limitations
 under the License.
 -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-  <parent>
-    <groupId>org.apache.maven.archetypes</groupId>
-    <artifactId>maven-archetype-bundles</artifactId>
-    <version>1.4</version>
-  </parent>
+    <parent>
+        <groupId>org.apache.maven.archetypes</groupId>
+        <artifactId>maven-archetype-bundles</artifactId>
+        <version>1.4</version>
+    </parent>
 
-  <groupId>com.sot.module</groupId>
-  <artifactId>archetype-server</artifactId>
-  <version>1.0</version>
-  <packaging>maven-archetype</packaging>
+    <groupId>com.sot.module</groupId>
+    <artifactId>archetype-server</artifactId>
+    <version>1.0</version>
+    <packaging>maven-archetype</packaging>
 
-  <name>Server Archetype</name>
+    <name>Server Archetype</name>
 
-  <description>
-    An archetype which contains a sample Server project.
-  </description>
+    <description>
+        An archetype which contains a sample Server project.
+    </description>
 
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-    </dependency>
-  </dependencies>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+        </dependency>
+    </dependencies>
 </project>
