@@ -1,5 +1,5 @@
 # archetype-demo
-Creation of a multi-module app from multiple Maven archetypes.
+Creates a multi-module app depending on multiple and specialized Maven archetypes (by tier or functionality).
 
 ## How to test it?
 
@@ -21,4 +21,4 @@ This will create an app from the 3 previous built archetypes.
 
 1. This is a basic demo yet!
 
-1. More complex cases have to be tested to prove real efficiency in such solution.
+1. More complex cases have to be tested to prove real efficiency in such solution mostly on functionalities!
