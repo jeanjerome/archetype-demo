@@ -22,7 +22,7 @@ mvn archetype:generate \
   -DartifactId=client \
   -Dversion=0.0.1-SNAPSHOT \
   -Dpackage=com.example.myproject.client \
-  -DaddSecurity=true \
+  -DaddSecurity=Y \
   -DinteractiveMode=false
 
 mvn archetype:generate \

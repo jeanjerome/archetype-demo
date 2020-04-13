@@ -5,7 +5,7 @@ package $package;
  */
 public class App {
     public static void main(String[] args) {
-#if ($addSecurity == "true")
+#if ($addSecurity == "Y")
             System.out.println("Hello World with SAF!");
 #else
         System.out.println("Hello World!");
