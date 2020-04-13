@@ -1,7 +1,7 @@
 #!/bin/bash
 
-mkdir ./test-dir
-cd ./test-dir
+mkdir test-dir
+cd test-dir
 
 mvn archetype:generate \
   -DarchetypeGroupId=com.sot.module \
@@ -10,9 +10,10 @@ mvn archetype:generate \
   -DgroupId=com.example.myproject \
   -DartifactId=app-parent \
   -Dversion=0.0.1-SNAPSHOT \
-  -DinteractiveMode=false
+  -DinteractiveMode=false \
+  -DarchetypeCatalog=internal
 
-cd ./app-parent
+cd app-parent
 
 mvn archetype:generate \
   -DarchetypeGroupId=com.sot.module \
@@ -23,7 +24,8 @@ mvn archetype:generate \
   -Dversion=0.0.1-SNAPSHOT \
   -Dpackage=com.example.myproject.client \
   -DaddSecurity=Y \
-  -DinteractiveMode=false
+  -DinteractiveMode=false \
+  -DarchetypeCatalog=internal
 
 mvn archetype:generate \
   -DarchetypeGroupId=com.sot.module \
@@ -33,4 +35,5 @@ mvn archetype:generate \
   -DartifactId=server \
   -Dversion=0.0.1-SNAPSHOT \
   -Dpackage=com.example.myproject.server \
-  -DinteractiveMode=false
+  -DinteractiveMode=false \
+  -DarchetypeCatalog=internal
