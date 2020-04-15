@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <!-- parent>
-        <groupId>org.apache.maven.archetypes</groupId>
-        <artifactId>maven-archetype-bundles</artifactId>
-        <version>1.4</version>
-    </parent -->
+    <parent>
+        <groupId>com.sot.module</groupId>
+        <artifactId>archetype-bundles</artifactId>
+        <version>1.0</version>
+    </parent>
 
     <groupId>com.sot.module</groupId>
     <artifactId>archetype-parent</artifactId>
@@ -24,42 +23,5 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-    <build>
-        <extensions>
-            <extension>
-                <groupId>org.apache.maven.archetype</groupId>
-                <artifactId>archetype-packaging</artifactId>
-                <version>3.1.2</version>
-            </extension>
-        </extensions>
-
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-archetype-plugin</artifactId>
-                    <version>3.1.2</version>
-                </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-site-plugin</artifactId>
-                    <version>3.7.1</version>
-                    <dependencies>
-                        <dependency>
-                            <groupId>io.github.devacfr.maven.skins</groupId>
-                            <artifactId>reflow-velocity-tools</artifactId>
-                            <version>2.3.0</version>
-                        </dependency>
-                    </dependencies>
-                </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-project-info-reports-plugin</artifactId>
-                    <version>3.0.0</version>
-                </plugin>
-            </plugins>
-        </pluginManagement>
-    </build>
 
 </project>
