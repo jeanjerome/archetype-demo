@@ -20,8 +20,4 @@
         An archetype which contains a sample Parent root project for creating multi module projects.
     </description>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
-
 </project>

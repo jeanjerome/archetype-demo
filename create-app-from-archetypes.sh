@@ -39,3 +39,5 @@ mvn archetype:generate \
   -DarchetypeCatalog=internal
 
 mvn au.com.acegi:xml-format-maven-plugin:xml-format
+
+mvn clean package

@@ -1,6 +1,9 @@
 #!/bin/bash
 
-cd ./parent
+cd ./bundles
+mvn clean install
+
+cd ../parent
 mvn clean install
 
 cd ../client
