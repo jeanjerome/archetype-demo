@@ -8,12 +8,15 @@ All of this can be done with simple Maven commands and its Maven archetype plugi
 ## How to test it?
 
 ### 1. Build and install the archetypes
-Run the bash script (on Windows, just run the included commands) `install-archetypes-local.sh`.
-This will build 3 Maven Archetypes and install them on your local Maven repository (`~/.m2/repository`)
+Run the bash script (on Windows, just run the included commands) `mvn-install-local.sh`.
+This will build 1 POM (`archetype-bundles`) and 3 Maven Archetypes (`archetype-parent`, `archetype-client`, `archetype-server`) and install them to your local Maven repository (`~/.m2/repository`)
 
-### 2. Generate your app
-Run the bash script `create-app-from-archetypes.sh` (or the included commands).
-This will create a fully fonctional app composed of the 3 previous built archetypes.
+### 2. (Optional) Generate the archetypes' sites documentation
+Run the bash script (on Windows, just run the included commands) `mvn-site.sh`.
+
+### 3. Generate your app
+Run the bash script `mvn-generate-app.sh` (or the included commands).
+This will create a fully functional app composed of the 3 previous built archetypes.
 
 ## What does this demonstrate?
 
