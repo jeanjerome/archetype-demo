@@ -1,0 +1,20 @@
+ ------
+ ${project.name}
+ ------
+
+${project.name}
+
+ <<<${project.artifactId}>>> is a POM which is used as parent's POM for all archetypes:
+
++----+
+
+project
+|-- pom.xml
+
++----+
+
+* Usage
+
+ Use to extend common Maven property on your archetype.
+
++----+
