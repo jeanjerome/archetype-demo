@@ -1,4 +1,4 @@
-![Java CI with Maven](https://github.com/jeanjerome/archetypes-mixture/workflows/Java%20CI%20with%20Maven/badge.svg?branch=develop)
+![Java CI with Maven](https://github.com/jeanjerome/archetypes-mixture/workflows/Java%20CI%20with%20Maven/badge.svg?branch=master)
 
 # archetypes-mixture
 How to generate different kinds of application architectures without maintaining redundant archetypes code?
