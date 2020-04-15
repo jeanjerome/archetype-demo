@@ -21,8 +21,8 @@ jobs:
       with:
         java-version: 1.8
     - name: Build bundles
-      run: mvn -B package --file pom.xml
+      run: mvn -B install --file pom.xml
       working-directory: bundles
     - name: Build Parent
-      run: mvn -B package --file pom.xml
+      run: mvn -B install --file pom.xml
       working-directory: parent
