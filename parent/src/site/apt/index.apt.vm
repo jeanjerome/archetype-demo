@@ -4,7 +4,7 @@
 
 ${project.name}
 
- <<<${project.artifactId}>>> is an archetype which generates a Parent root module project:
+ <<<${project.artifactId}>>> is an archetype which generates a Parent module project:
 
 +----+
 
