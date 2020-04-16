@@ -7,6 +7,8 @@ Well, start to define one archetype per application layer and mixe them as you w
 
 All of this can be done with simple Maven commands and its Maven archetype plugin and Velocity template engine.
 
+!!! This is (only) a POC demonstrating the feasibility of such solutions not a multi-architecture archetype able to generate all kind of applications... sorry for that !!!
+
 ## How to test it?
 
 ### 1. Build and install the archetypes
