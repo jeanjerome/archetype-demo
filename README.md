@@ -1,6 +1,7 @@
 ![Maven build](https://github.com/jeanjerome/archetypes-mixture/workflows/Java%20CI%20with%20Maven/badge.svg?branch=develop)
 [![GitHub release](https://img.shields.io/github/release/jeanjerome/archetypes-mixture.svg?style=flat-square)](https://github.com/jeanjerome/archetypes-mixture)
 [![Coveralls Coverage](https://coveralls.io/repos/github/jeanjerome/archetypes-mixture/badge.svg?branch=master)](https://coveralls.io/github/jeanjerome/archetypes-mixture?branch=master)
+[![vulnerabilities](https://snyk.io/test/github/jeanjerome/archetypes-mixture/badge.svg)](https://snyk.io/test/github/jeanjerome/archetypes-mixture)   [![Greenkeeper badge](https://badges.greenkeeper.io/jeanjerome/archetypes-mixture.svg)](https://greenkeeper.io/)   [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjeanjerome%2Farchetypes-mixture.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjeanjerome%2Farchetypes-mixture?ref=badge_shield)   [![Code Climate](https://codeclimate.com/github/jeanjerome/archetypes-mixture/badges/gpa.svg)](https://codeclimate.com/github/jeanjerome/archetypes-mixture) 
 
 # archetypes-mixture
 How to generate different kinds of application architectures without maintaining redundant archetypes code?
